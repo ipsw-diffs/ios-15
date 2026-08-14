@@ -1,0 +1,107 @@
+{
+  "catalog_commit": "b2acda91fb3a16d1a9779d564b64ba8bac37b50d",
+  "discovery": {
+    "anchor": {
+      "appledb_path": "osFiles/iOS/19x - 15.x/19H411.json",
+      "beta": false,
+      "build": "19H411",
+      "rc": false,
+      "released": "2026-03-11T00:00:00Z",
+      "source": {
+        "input": "iPodtouch_7_15.8.7_19H411_Restore.ipsw",
+        "sha256": "c7e48fd400b0b0c64ee0a766ece2ba24f345bcd1b23ad9850629312064338cad",
+        "size": 5013518185,
+        "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/047-95434/0CA995F2-B857-4159-A113-21C269D2BA8E/iPodtouch_7_15.8.7_19H411_Restore.ipsw"
+      },
+      "version": "15.8.7"
+    },
+    "appledb": {
+      "commit": "d227e42c3a2449bec0c8a3b1962d7157dddb5e34",
+      "repository": "https://github.com/littlebyteorg/appledb"
+    },
+    "appledb_platform": "iOS",
+    "device": "iPod9,1",
+    "edges": [
+      {
+        "from": {
+          "appledb_path": "osFiles/iOS/19x - 15.x/19H411.json",
+          "beta": false,
+          "build": "19H411",
+          "rc": false,
+          "released": "2026-03-11T00:00:00Z",
+          "source": {
+            "input": "iPodtouch_7_15.8.7_19H411_Restore.ipsw",
+            "sha256": "c7e48fd400b0b0c64ee0a766ece2ba24f345bcd1b23ad9850629312064338cad",
+            "size": 5013518185,
+            "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/047-95434/0CA995F2-B857-4159-A113-21C269D2BA8E/iPodtouch_7_15.8.7_19H411_Restore.ipsw"
+          },
+          "version": "15.8.7"
+        },
+        "to": {
+          "appledb_path": "osFiles/iOS/19x - 15.x/19H422.json",
+          "beta": false,
+          "build": "19H422",
+          "rc": false,
+          "released": "2026-05-11T00:00:00Z",
+          "source": {
+            "input": "iPodtouch_7_15.8.8_19H422_Restore.ipsw",
+            "sha256": "922336ecf7a00f3f650694fcb40105932c51e6dab8f2a7720b62b3a5c1d12cc9",
+            "size": 5013514038,
+            "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/122-76865/68174A8B-44B2-4689-B8D4-C8F42F4FFBEE/iPodtouch_7_15.8.8_19H422_Restore.ipsw"
+          },
+          "version": "15.8.8"
+        }
+      }
+    ],
+    "latest": {
+      "appledb_path": "osFiles/iOS/19x - 15.x/19H422.json",
+      "beta": false,
+      "build": "19H422",
+      "rc": false,
+      "released": "2026-05-11T00:00:00Z",
+      "source": {
+        "input": "iPodtouch_7_15.8.8_19H422_Restore.ipsw",
+        "sha256": "922336ecf7a00f3f650694fcb40105932c51e6dab8f2a7720b62b3a5c1d12cc9",
+        "size": 5013514038,
+        "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/122-76865/68174A8B-44B2-4689-B8D4-C8F42F4FFBEE/iPodtouch_7_15.8.8_19H422_Restore.ipsw"
+      },
+      "version": "15.8.8"
+    },
+    "major_version": 15,
+    "platform": "iOS",
+    "schema_version": 2,
+    "source_inventory": {
+      "observed": 68,
+      "selected": 2
+    },
+    "status": "candidate",
+    "track_id": "ios-15"
+  },
+  "generator": {
+    "name": "ipsw",
+    "version": "Version: 3.1.708, BuildCommit: 84f5d9aef45149840bdd00b7b8e661088c1d6881"
+  },
+  "inputs": [
+    {
+      "role": "previous",
+      "sha256": "c7e48fd400b0b0c64ee0a766ece2ba24f345bcd1b23ad9850629312064338cad",
+      "size": 5013518185,
+      "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/047-95434/0CA995F2-B857-4159-A113-21C269D2BA8E/iPodtouch_7_15.8.7_19H411_Restore.ipsw"
+    },
+    {
+      "role": "next",
+      "sha256": "922336ecf7a00f3f650694fcb40105932c51e6dab8f2a7720b62b3a5c1d12cc9",
+      "size": 5013514038,
+      "url": "https://updates.cdn-apple.com/2025FallFCS/fullrestores/122-76865/68174A8B-44B2-4689-B8D4-C8F42F4FFBEE/iPodtouch_7_15.8.8_19H422_Restore.ipsw"
+    }
+  ],
+  "schema_version": 1,
+  "signatures": {
+    "commit": "81178cfe6c8869612ef092f6471fce3e17d95b20",
+    "repository": "https://github.com/blacktop/symbolicator"
+  },
+  "source_commit": "d6431c47a3b8fc988f65b693125da00d8642578d",
+  "source_tag": "payload/15_8_7_19H411_vs_15_8_8_19H422",
+  "workflow_commit": "895d86e58326364912a0bae5a19a30d81b80b3f9",
+  "workflow_run": "https://github.com/ipsw-diff/ios-15/actions/runs/31825032202"
+}
