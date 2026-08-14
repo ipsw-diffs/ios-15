@@ -1,0 +1,15 @@
+{
+  "schema_version": 2,
+  "id": "ios-15",
+  "platform": "iOS",
+  "appledb_platform": "iOS",
+  "device": "iPod9,1",
+  "major_version": 15,
+  "anchor": {
+    "version": "15.8.7",
+    "build": "19H411",
+    "released": "2026-03-11T00:00:00Z",
+    "beta": false,
+    "rc": false
+  }
+}
